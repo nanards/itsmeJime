@@ -1,0 +1,43 @@
+Introduction Sequence
+step 1
+git commit
+
+step 2
+git checkout -b bugfix
+
+step 3
+git checkout -b bugfix
+git commit -m "UWU"
+git checkout main
+git commit -m "BYE"
+git merge bugFix
+
+step 4
+git checkout -b bugFix
+git commit
+git checkout main
+git commit
+git rebase bugFix
+click the instructions (kung galibog ka) objective
+undo
+git checkout bugFix
+git rebase main
+
+Ramping Up 
+step 5
+git checkout C4
+
+step 6
+git checkout bugFix^
+
+step 7
+git branch -f bugFix bugfix~3
+git checkout C1
+git branch -f main C6
+
+step 8
+git reset HEAD~1
+git checkout pushed
+git revert C1
+undo
+git revert HEAD
